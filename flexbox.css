@@ -41,3 +41,11 @@ body {
   content: "";
   width: 350px;
 }
+
+img {
+  transition: all 1s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
