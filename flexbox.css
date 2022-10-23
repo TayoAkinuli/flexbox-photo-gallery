@@ -35,17 +35,14 @@ body {
   height: 300px;
   object-fit: cover;
   border-radius: 10px;
+  transition: all 1s;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
 }
 
 .gallery::after {
   content: "";
   width: 350px;
-}
-
-img {
-  transition: all 1s;
-}
-
-img:hover {
-  transform: scale(1.1);
 }
